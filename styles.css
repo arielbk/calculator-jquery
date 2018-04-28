@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BEGIN CUSTOM STYLES */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Digital-7";
+  src: url('fonts/digital-7.ttf');
+}
+
+h1 {
+  color: #c8d1cb;
+  font-size: 1.3em;
+  float: right;
+  text-transform: uppercase;
+  padding: 0 12px 12px 0;
+}
+
+table {
+  margin: 3% auto;
+  background-color: #edebde;
+  text-align: center;
+  border: 1px solid #424242;
+  border-radius: 5px;
+}
+
+table tr:first-child {
+  background-color: #444;
+  background: linear-gradient(#555, #333);
+}
+
+#display {
+  display: block;
+  text-align: right;
+  font: 4em "Digital-7", "Courier New", Courier, serif;
+  color: #000c00;
+  background: #c8d1cb;
+  border: 2px solid #7f8481;
+  margin: 12px;
+  padding-top: 10px;
+  width: 415px;
+
+}
+
+table button {
+  text-align: center;
+  font-size: 2em;
+  width: 80%;
+  margin: 6px 12px;
+  background-color: #f9f8f4;
+}
+
+#clearButton {
+  background-color: #f97c52;
+  color: #f9f8f4;
+}
+
+#equalsButton {
+  background-color: #b2c1c1;
+}
+
+#addButton,
+#subtractButton,
+#multiplyButton,
+#divideButton {
+  background-color: #c1bfa6;
+}
+
+table button:active,
+#equalsButton:active,
+#addButton:active,
+#subtractButton:active,
+#multiplyButton:active,
+#divideButton:active {
+  background-color: #6d6d6d;
+}
