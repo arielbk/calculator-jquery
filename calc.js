@@ -86,6 +86,7 @@ $('button').click( function() {
   }
 });
 
+// the endgame function
 function calculate(x, y, operator) {
   // convert strings to numbers to calculate
   x = Number(x);
