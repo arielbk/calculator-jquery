@@ -2,7 +2,7 @@
 
 A demonstration can be viewed [here](http://arielbk.com/calculator3000)
 
-A simple calendar app, made as practice for me to learn more about jQuery and interacting with page content.
+A simple calculator app, made as practice for me to learn more about jQuery and interacting with page content.
 
 The main JavaScript file can be [viewed here](https://github.com/arielbk/calculator-jquery/blob/master/calc.js).
 
